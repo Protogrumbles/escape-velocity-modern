@@ -1,0 +1,17 @@
+.DS_Store
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.log
+out/
+# Godot editor / export artefacts (not source)
+.godot/
+*.import
+export/
+*.pck
+*.exe
+# Local saves created while playtesting (user:// lives outside the
+# repo, but keep any stray local copy out of version control)
+save.json
+escape_velocity_save.json
